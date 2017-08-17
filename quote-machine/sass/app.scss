@@ -1,0 +1,13 @@
+@import "../bower_components/bootstrap/scss/bootstrap";
+body{
+    height: 100%;
+    background-color: $blue;
+}
+html{
+    height: 100%;
+}
+.inner{
+    height: 300px;
+    background-color: white;
+    border-radius: 50px;
+}
