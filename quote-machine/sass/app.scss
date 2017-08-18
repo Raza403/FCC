@@ -1,13 +1,17 @@
 @import "../bower_components/bootstrap/scss/bootstrap";
+@import "../bower_components/bootstrap/scss/variables";
+@import "../bower_components/bootstrap/scss/custom";
 body{
     height: 100%;
     background-color: $blue;
-}
-html{
-    height: 100%;
+    color: $black;
 }
 .inner{
     height: 300px;
     background-color: white;
     border-radius: 50px;
+    color: $black;
+}
+#content{
+    padding-top: 2rem;
 }
