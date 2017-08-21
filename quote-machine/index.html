@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,30 +7,16 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/app.css">
     <title>Document</title>
 </head>
-
 <body>
-    <div class="container">
-        <div class="inner mt-6 col-md-6 col-sm-12 offset-md-3" id="quote">
-            <p id="content"></p>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="quote col-md-6 col-sm-6 offset-md-3 offset-sm-3">
+
         </div>
+
     </div>
-    <div class="text-center mt-4">
-        <button class="btn btn-md" id="get">Get new quote</button>
-    </div>
+</div>
 
 
-
-
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/tether/dist/js/tether.min.js"></script>
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script>$("#get").on('click',function(){
-        $.ajaxSetup({cache:false});
-        $.getJSON("https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=30&callback=", function(data) {
-$("#content").html(data[0].content + "____" + data[0].title)
-});
-    });
-    </script>
 </body>
-
 </html>

@@ -7820,43 +7820,6 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 }
 
 /* line 12, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-.m-6 {
-  margin: 9rem 9rem !important;
-}
-
-/* line 13, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-.mt-6 {
-  margin-top: 9rem !important;
-}
-
-/* line 14, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-.mr-6 {
-  margin-right: 9rem !important;
-}
-
-/* line 15, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-.mb-6 {
-  margin-bottom: 9rem !important;
-}
-
-/* line 16, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-.ml-6 {
-  margin-left: 9rem !important;
-}
-
-/* line 17, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-.mx-6 {
-  margin-right: 9rem !important;
-  margin-left: 9rem !important;
-}
-
-/* line 21, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-.my-6 {
-  margin-top: 9rem !important;
-  margin-bottom: 9rem !important;
-}
-
-/* line 12, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
 .p-0 {
   padding: 0 0 !important;
 }
@@ -8076,43 +8039,6 @@ a.bg-inverse:focus, a.bg-inverse:hover {
 .py-5 {
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
-}
-
-/* line 12, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-.p-6 {
-  padding: 9rem 9rem !important;
-}
-
-/* line 13, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-.pt-6 {
-  padding-top: 9rem !important;
-}
-
-/* line 14, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-.pr-6 {
-  padding-right: 9rem !important;
-}
-
-/* line 15, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-.pb-6 {
-  padding-bottom: 9rem !important;
-}
-
-/* line 16, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-.pl-6 {
-  padding-left: 9rem !important;
-}
-
-/* line 17, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-.px-6 {
-  padding-right: 9rem !important;
-  padding-left: 9rem !important;
-}
-
-/* line 21, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-.py-6 {
-  padding-top: 9rem !important;
-  padding-bottom: 9rem !important;
 }
 
 /* line 29, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
@@ -8376,43 +8302,6 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   }
 
   /* line 12, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .m-sm-6 {
-    margin: 9rem 9rem !important;
-  }
-
-  /* line 13, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .mt-sm-6 {
-    margin-top: 9rem !important;
-  }
-
-  /* line 14, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .mr-sm-6 {
-    margin-right: 9rem !important;
-  }
-
-  /* line 15, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .mb-sm-6 {
-    margin-bottom: 9rem !important;
-  }
-
-  /* line 16, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .ml-sm-6 {
-    margin-left: 9rem !important;
-  }
-
-  /* line 17, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .mx-sm-6 {
-    margin-right: 9rem !important;
-    margin-left: 9rem !important;
-  }
-
-  /* line 21, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .my-sm-6 {
-    margin-top: 9rem !important;
-    margin-bottom: 9rem !important;
-  }
-
-  /* line 12, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
   .p-sm-0 {
     padding: 0 0 !important;
   }
@@ -8632,43 +8521,6 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   .py-sm-5 {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
-  }
-
-  /* line 12, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .p-sm-6 {
-    padding: 9rem 9rem !important;
-  }
-
-  /* line 13, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .pt-sm-6 {
-    padding-top: 9rem !important;
-  }
-
-  /* line 14, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .pr-sm-6 {
-    padding-right: 9rem !important;
-  }
-
-  /* line 15, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .pb-sm-6 {
-    padding-bottom: 9rem !important;
-  }
-
-  /* line 16, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .pl-sm-6 {
-    padding-left: 9rem !important;
-  }
-
-  /* line 17, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .px-sm-6 {
-    padding-right: 9rem !important;
-    padding-left: 9rem !important;
-  }
-
-  /* line 21, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .py-sm-6 {
-    padding-top: 9rem !important;
-    padding-bottom: 9rem !important;
   }
 
   /* line 29, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
@@ -8932,43 +8784,6 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   }
 
   /* line 12, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .m-md-6 {
-    margin: 9rem 9rem !important;
-  }
-
-  /* line 13, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .mt-md-6 {
-    margin-top: 9rem !important;
-  }
-
-  /* line 14, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .mr-md-6 {
-    margin-right: 9rem !important;
-  }
-
-  /* line 15, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .mb-md-6 {
-    margin-bottom: 9rem !important;
-  }
-
-  /* line 16, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .ml-md-6 {
-    margin-left: 9rem !important;
-  }
-
-  /* line 17, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .mx-md-6 {
-    margin-right: 9rem !important;
-    margin-left: 9rem !important;
-  }
-
-  /* line 21, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .my-md-6 {
-    margin-top: 9rem !important;
-    margin-bottom: 9rem !important;
-  }
-
-  /* line 12, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
   .p-md-0 {
     padding: 0 0 !important;
   }
@@ -9188,43 +9003,6 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   .py-md-5 {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
-  }
-
-  /* line 12, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .p-md-6 {
-    padding: 9rem 9rem !important;
-  }
-
-  /* line 13, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .pt-md-6 {
-    padding-top: 9rem !important;
-  }
-
-  /* line 14, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .pr-md-6 {
-    padding-right: 9rem !important;
-  }
-
-  /* line 15, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .pb-md-6 {
-    padding-bottom: 9rem !important;
-  }
-
-  /* line 16, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .pl-md-6 {
-    padding-left: 9rem !important;
-  }
-
-  /* line 17, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .px-md-6 {
-    padding-right: 9rem !important;
-    padding-left: 9rem !important;
-  }
-
-  /* line 21, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .py-md-6 {
-    padding-top: 9rem !important;
-    padding-bottom: 9rem !important;
   }
 
   /* line 29, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
@@ -9488,43 +9266,6 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   }
 
   /* line 12, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .m-lg-6 {
-    margin: 9rem 9rem !important;
-  }
-
-  /* line 13, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .mt-lg-6 {
-    margin-top: 9rem !important;
-  }
-
-  /* line 14, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .mr-lg-6 {
-    margin-right: 9rem !important;
-  }
-
-  /* line 15, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .mb-lg-6 {
-    margin-bottom: 9rem !important;
-  }
-
-  /* line 16, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .ml-lg-6 {
-    margin-left: 9rem !important;
-  }
-
-  /* line 17, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .mx-lg-6 {
-    margin-right: 9rem !important;
-    margin-left: 9rem !important;
-  }
-
-  /* line 21, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .my-lg-6 {
-    margin-top: 9rem !important;
-    margin-bottom: 9rem !important;
-  }
-
-  /* line 12, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
   .p-lg-0 {
     padding: 0 0 !important;
   }
@@ -9744,43 +9485,6 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   .py-lg-5 {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
-  }
-
-  /* line 12, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .p-lg-6 {
-    padding: 9rem 9rem !important;
-  }
-
-  /* line 13, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .pt-lg-6 {
-    padding-top: 9rem !important;
-  }
-
-  /* line 14, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .pr-lg-6 {
-    padding-right: 9rem !important;
-  }
-
-  /* line 15, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .pb-lg-6 {
-    padding-bottom: 9rem !important;
-  }
-
-  /* line 16, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .pl-lg-6 {
-    padding-left: 9rem !important;
-  }
-
-  /* line 17, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .px-lg-6 {
-    padding-right: 9rem !important;
-    padding-left: 9rem !important;
-  }
-
-  /* line 21, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .py-lg-6 {
-    padding-top: 9rem !important;
-    padding-bottom: 9rem !important;
   }
 
   /* line 29, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
@@ -10044,43 +9748,6 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   }
 
   /* line 12, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .m-xl-6 {
-    margin: 9rem 9rem !important;
-  }
-
-  /* line 13, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .mt-xl-6 {
-    margin-top: 9rem !important;
-  }
-
-  /* line 14, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .mr-xl-6 {
-    margin-right: 9rem !important;
-  }
-
-  /* line 15, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .mb-xl-6 {
-    margin-bottom: 9rem !important;
-  }
-
-  /* line 16, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .ml-xl-6 {
-    margin-left: 9rem !important;
-  }
-
-  /* line 17, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .mx-xl-6 {
-    margin-right: 9rem !important;
-    margin-left: 9rem !important;
-  }
-
-  /* line 21, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .my-xl-6 {
-    margin-top: 9rem !important;
-    margin-bottom: 9rem !important;
-  }
-
-  /* line 12, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
   .p-xl-0 {
     padding: 0 0 !important;
   }
@@ -10300,43 +9967,6 @@ a.bg-inverse:focus, a.bg-inverse:hover {
   .py-xl-5 {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
-  }
-
-  /* line 12, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .p-xl-6 {
-    padding: 9rem 9rem !important;
-  }
-
-  /* line 13, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .pt-xl-6 {
-    padding-top: 9rem !important;
-  }
-
-  /* line 14, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .pr-xl-6 {
-    padding-right: 9rem !important;
-  }
-
-  /* line 15, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .pb-xl-6 {
-    padding-bottom: 9rem !important;
-  }
-
-  /* line 16, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .pl-xl-6 {
-    padding-left: 9rem !important;
-  }
-
-  /* line 17, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .px-xl-6 {
-    padding-right: 9rem !important;
-    padding-left: 9rem !important;
-  }
-
-  /* line 21, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
-  .py-xl-6 {
-    padding-top: 9rem !important;
-    padding-bottom: 9rem !important;
   }
 
   /* line 29, ../bower_components/bootstrap/scss/utilities/_spacing.scss */
@@ -10697,22 +10327,36 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   }
 }
 
-/* line 4, ../sass/app.scss */
+/* line 2, ../sass/app.scss */
 body {
+  background-color: lightblue;
+}
+
+/* line 5, ../sass/app.scss */
+html, body {
   height: 100%;
-  background-color: #0275d8;
-  color: #000;
+  margin: 0;
+  padding: 0;
 }
 
-/* line 9, ../sass/app.scss */
-.inner {
-  height: 300px;
-  background-color: white;
-  border-radius: 50px;
-  color: #000;
+/* line 10, ../sass/app.scss */
+.container-fluid {
+  height: 100%;
+  background-color: lightgreen;
+  width: 100%;
+  display: table;
 }
 
-/* line 15, ../sass/app.scss */
-#content {
-  padding-top: 2rem;
+/* line 16, ../sass/app.scss */
+.row-fluid {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* line 21, ../sass/app.scss */
+.quote {
+  min-height: 50%;
+  min-height: 50vh;
+  background-color: lightpink;
 }
