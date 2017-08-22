@@ -10328,35 +10328,41 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 }
 
 /* line 2, ../sass/app.scss */
-body {
-  background-color: lightblue;
-}
-
-/* line 5, ../sass/app.scss */
 html, body {
   height: 100%;
   margin: 0;
   padding: 0;
 }
 
-/* line 10, ../sass/app.scss */
+/* line 7, ../sass/app.scss */
 .container-fluid {
   height: 100%;
-  background-color: lightgreen;
   width: 100%;
   display: table;
 }
 
-/* line 16, ../sass/app.scss */
+/* line 12, ../sass/app.scss */
 .row-fluid {
   height: 100%;
   display: table-cell;
   vertical-align: middle;
 }
 
-/* line 21, ../sass/app.scss */
+/* line 17, ../sass/app.scss */
 .quote {
   min-height: 50%;
   min-height: 50vh;
-  background-color: lightpink;
+  background-color: lightsteelblue;
+  border-radius: 30px;
+}
+
+/* line 23, ../sass/app.scss */
+.button {
+  padding-top: 10px;
+}
+
+/* line 26, ../sass/app.scss */
+p {
+  font-size: 35px;
+  font-family: 'Ubuntu', sans-serif;
 }
