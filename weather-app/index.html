@@ -28,10 +28,9 @@
                     cache: false
                 });
                 $.getJSON("https://fcc-weather-api.glitch.me/api/current?lat=" + position.coords.latitude + 
-                "&lon=" + position.coords.longitude,function(data){
-                    console.log(data);
-                    console.log(data.main.temp);
-                    $("#data").html("<p>" + data.name + "</p>");
+                "&lon=" + position.coords.longitude,function(data){                  console.log(data);
+                    console.log(data.weather[0].main);
+                    $("#data").html("<img src=" + data.weather[0].icon + ">");
                 });
             });
         }
