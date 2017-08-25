@@ -31,11 +31,10 @@
                 "&lon=" + position.coords.longitude,function(data){
                     console.log(data);
                     console.log(data.main.temp);
-                    $("#data").html = "<p>" + data.main.temp + "</p>";
+                    $("#data").html("<p>" + data.name + "</p>");
                 });
             });
         }
-    </script>
     </script>
 </body>
 
