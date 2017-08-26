@@ -52,7 +52,16 @@
                     $("#f").click(function(){
                         $("#temp").html("<p>" + f.toFixed(2) + " &#8457;</p>");
                     });
-                    $("body").css("background","url('https://goo.gl/fLHvK9')");
+                    if (temp<=20){
+                    $("body").css("background","url('http://wallpaperscraft.com/image/snow_snowflake_winter_73812_1024x768.jpg')");
+                    }
+                    if(20 < temp <30){
+                        $("body").css("background","url('http://wallpaperscraft.com/image/beach_tropics_sea_sand_palm_trees_yachts_84735_1024x768.jpg')");
+                    }
+                    if (temp > 30) {
+                        $("body").css("background","url('http://wallpaperscraft.com/image/desert_sand_emptiness_114156_1024x768.jpg')");
+                    }
+
                 });
             });
         }

@@ -10329,15 +10329,17 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 /* line 2, ../sass/app.scss */
 body {
-  background-color: #eceeef;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
 }
-/* line 4, ../sass/app.scss */
+/* line 6, ../sass/app.scss */
 body h1 {
   font-family: 'Ubuntu', sans-serif;
   font-size: 60px;
   padding-top: 10px;
 }
-/* line 9, ../sass/app.scss */
+/* line 11, ../sass/app.scss */
 body .weather-info {
   padding-top: 20px;
   font-family: 'Ubuntu', sans-serif;
