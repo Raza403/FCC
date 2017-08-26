@@ -38,9 +38,7 @@
                     cache: false
                 });
                 $.getJSON("https://fcc-weather-api.glitch.me/api/current?lat=" + position.coords.latitude + 
-                "&lon=" + position.coords.longitude,function(data){                  console.log(data);
-                    console.log(data);
-                    console.log(data.wind.speed);
+                "&lon=" + position.coords.longitude,function(data){
                     var c = data.main.temp;
                     var f = (c*9/5) + 32;
                     $("#city").html("<p>" + data.name + "</p>");
