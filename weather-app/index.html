@@ -14,7 +14,17 @@
     <header class="text-center">
         <h1>Your Local Weather</h1>
     </header>
-    <div id="data">
+    <div class="text-center weather-info">
+        <h3 id="city"></h3>
+        <h3 id="description"></h3>
+        <h3 id="temp"></h3>
+        <div class="row">
+                <button id="f" class="btn btn-primary offset-md-3 col-sm-6 col-md-3">Temperature in fahrenheit</button>
+                <button id="c" class="btn btn-success col-sm-6 col-md-3">Temperature in Centigrade</button>
+            </div>
+        
+        
+        
     </div>
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
@@ -29,8 +39,20 @@
                 });
                 $.getJSON("https://fcc-weather-api.glitch.me/api/current?lat=" + position.coords.latitude + 
                 "&lon=" + position.coords.longitude,function(data){                  console.log(data);
-                    console.log(data.weather[0].main);
-                    $("#data").html("<img src=" + data.weather[0].icon + ">");
+                    console.log(data);
+                    console.log(data.wind.speed);
+                    var c = data.main.temp;
+                    var f = (c*9/5) + 32;
+                    $("#city").html("<p>" + data.name + "</p>");
+                    $("#temp").html("<p>" + c + " &#8451;</p>");
+                    $("#description").html("<p>" + data.weather[0].description + "</p>");
+                    $("#c").click(function(){
+                        $("#temp").html("<p>" + c + " &#8451;</p>");
+                    });
+                    $("#f").click(function(){
+                        $("#temp").html("<p>" + f.toFixed(2) + " &#8457;</p>");
+                    });
+                    $("body").css("background","url('https://goo.gl/fLHvK9')");
                 });
             });
         }
