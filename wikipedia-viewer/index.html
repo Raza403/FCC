@@ -5,28 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Font awesome CDN-->
+    <script src="https://use.fontawesome.com/bd13961830.js"></script>
+    <!--Custom style sheet-->
     <link rel="stylesheet" href="stylesheets/app.css">
     <title>Wiki articles</title>
 </head>
 
 <body>
     <div class="container">
-        <div class="center">
-            <button id="random" class="btn btn-primary btn-md">Get a random article</button>
-            
+        <div class="text-center">
+            <form>
+                <div class="form-group search-wrapper row">
+                    <input type="text" class="btn-outline-primary form-control col-md-4 col-sm-12 offset-md-4" id="searchBox" placeholder="Search for Wikipedia articles">
+                    <button id="fa" class="btn col-md-1 btn-outline-primary"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </div>
+            </form>
+            <button id="random" class="btn btn-md">Get a random article</button>
+            <div id="article">
+
+            </div>
         </div>
-    </div>button
+    </div>
 
 
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/tether/dist/js/tether.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
     <script>
         $("#random").click(function () {
             window.open('https://en.wikipedia.org/wiki/Special:Random', '_blank');
         });
     </script>
+    <script>
+        $("#fa").click(function () {});
+    </script>
+
 
 </body>
 

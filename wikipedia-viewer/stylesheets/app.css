@@ -10327,17 +10327,41 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   }
 }
 
-/* line 2, ../sass/app.scss */
-.center {
-  height: 700px;
-  position: relative;
+/* line 3, ../sass/app.scss */
+.search-wrapper {
+  padding-top: 20px;
 }
-/* line 6, ../sass/app.scss */
-.center .search, .center button {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+
+/* line 7, ../sass/app.scss */
+body {
+  background-image: url("../images/img.jpg");
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  /* Background image is fixed in the viewport so that it doesn't move when 
+   the content's height is greater than the image's height */
+  background-attachment: fixed;
+  /* This is what makes the background image rescale based
+   on the container's size */
+  background-size: cover;
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 21, ../sass/app.scss */
+  body {
+    /* The file size of this background image is 93% smaller
+       to improve page load speed on mobile internet connections */
+    background-image: url("../images/img-sm.jpg");
+  }
+}
+/* line 27, ../sass/app.scss */
+#searchBox, #fa, #random {
+  background-color: #fff;
+  color: #0275d8;
+}
+/* line 30, ../sass/app.scss */
+#searchBox:hover, #fa:hover, #random:hover {
+  background-color: #082567;
+  color: #fff;
 }
