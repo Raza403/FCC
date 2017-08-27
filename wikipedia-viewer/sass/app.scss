@@ -17,18 +17,35 @@ body {
      on the container's size */
     background-size: cover;
 }
+
 @media only screen and (max-width: 767px) {
     body {
-      /* The file size of this background image is 93% smaller
+        /* The file size of this background image is 93% smaller
          to improve page load speed on mobile internet connections */
-      background-image: url("../images/img-sm.jpg");
+        background-image: url("../images/img-sm.jpg");
     }
-  }
-  #searchBox,#searchButton,#random{
-      background-color: $white;
-      color: $blue;
-      &:hover{
-          background-color: $dark-blue;
-          color: $white;
-      }
-  }
+}
+
+#searchBox,
+#searchButton,
+#random,
+.article {
+    background-color: $white;
+    color: $blue;
+    &:hover {
+        background-color: $dark-blue;
+        color: $white;
+    }
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+        color: $white;
+    }
+}
+
+.article {
+    margin: 10px;
+}

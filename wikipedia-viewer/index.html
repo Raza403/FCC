@@ -22,7 +22,7 @@
                 </div>
             </form>
             <button id="random" class="btn btn-md">Get a random article</button>
-            <div id="article">
+            <div id="articles">
 
             </div>
         </div>
@@ -38,18 +38,24 @@
         $("#random").click(function () {
             window.open('https://en.wikipedia.org/wiki/Special:Random', '_blank');
         });
-        $(document).ready(function(){
+        $(document).ready(function () {
             $("#searchButton").click(function (evt) {
                 evt.preventDefault()
-            var value = ($("#searchBox").val());
-            // get data from api
-            $.ajaxSetup({
+                var value = ($("#searchBox").val());
+                // get data from api
+                $.ajaxSetup({
                     cache: false
                 });
-                $.getJSON("https://en.wikipedia.org/w/api.php?action=opensearch&search=" + value + "&limit=10&namespace=0&format=json&origin=*",function(data){
-                    console.log(data);
-                });
-        });
+                $.getJSON("https://en.wikipedia.org/w/api.php?action=opensearch&search=" + value +
+                    "&limit=8&namespace=0&format=json&origin=*",
+                    function (data) {
+                        for (var i = 0; i < 8; i++) {
+                            $('#articles').append("<div class='article'><a href='" + data[3][i] +
+                                "' style='display:block;'><p>" + data[1][i] + "</p><p>" + data[
+                                    2][i] + "</p></a></div>");
+                        }
+                    });
+            });
         });
     </script>
 

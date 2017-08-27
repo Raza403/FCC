@@ -10348,20 +10348,41 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 21, ../sass/app.scss */
+  /* line 22, ../sass/app.scss */
   body {
     /* The file size of this background image is 93% smaller
-       to improve page load speed on mobile internet connections */
+     to improve page load speed on mobile internet connections */
     background-image: url("../images/img-sm.jpg");
   }
 }
-/* line 27, ../sass/app.scss */
-#searchBox, #searchButton, #random {
+/* line 29, ../sass/app.scss */
+#searchBox,
+#searchButton,
+#random,
+.article {
   background-color: #fff;
   color: #0275d8;
 }
-/* line 30, ../sass/app.scss */
-#searchBox:hover, #searchButton:hover, #random:hover {
+/* line 35, ../sass/app.scss */
+#searchBox:hover,
+#searchButton:hover,
+#random:hover,
+.article:hover {
   background-color: #082567;
   color: #fff;
+}
+
+/* line 41, ../sass/app.scss */
+a {
+  text-decoration: none;
+}
+/* line 43, ../sass/app.scss */
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 49, ../sass/app.scss */
+.article {
+  margin: 10px;
 }
