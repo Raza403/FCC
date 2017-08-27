@@ -17,8 +17,8 @@
         <div class="text-center">
             <form>
                 <div class="form-group search-wrapper row">
-                    <input type="text" class="btn-outline-primary form-control col-md-4 col-sm-12 offset-md-4" id="searchBox" placeholder="Search for Wikipedia articles">
-                    <button id="fa" class="btn col-md-1 btn-outline-primary"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    <input id="searchBox" type="text" class="btn-outline-primary form-control col-md-4 col-sm-12 offset-md-4" placeholder="Search for Wikipedia articles">
+                    <button id="searchButton" class="btn col-md-1 btn-outline-primary"><i class="fa fa-search" aria-hidden="true"></i></button>
                 </div>
             </form>
             <button id="random" class="btn btn-md">Get a random article</button>
@@ -38,11 +38,20 @@
         $("#random").click(function () {
             window.open('https://en.wikipedia.org/wiki/Special:Random', '_blank');
         });
+        $(document).ready(function(){
+            $("#searchButton").click(function (evt) {
+                evt.preventDefault()
+            var value = ($("#searchBox").val());
+            // get data from api
+            $.ajaxSetup({
+                    cache: false
+                });
+                $.getJSON("https://en.wikipedia.org/w/api.php?action=opensearch&search=" + value + "&limit=10&namespace=0&format=json&origin=*",function(data){
+                    console.log(data);
+                });
+        });
+        });
     </script>
-    <script>
-        $("#fa").click(function () {});
-    </script>
-
 
 </body>
 

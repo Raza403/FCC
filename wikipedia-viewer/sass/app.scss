@@ -24,7 +24,7 @@ body {
       background-image: url("../images/img-sm.jpg");
     }
   }
-  #searchBox,#fa,#random{
+  #searchBox,#searchButton,#random{
       background-color: $white;
       color: $blue;
       &:hover{

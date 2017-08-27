@@ -10356,12 +10356,12 @@ body {
   }
 }
 /* line 27, ../sass/app.scss */
-#searchBox, #fa, #random {
+#searchBox, #searchButton, #random {
   background-color: #fff;
   color: #0275d8;
 }
 /* line 30, ../sass/app.scss */
-#searchBox:hover, #fa:hover, #random:hover {
+#searchBox:hover, #searchButton:hover, #random:hover {
   background-color: #082567;
   color: #fff;
 }
