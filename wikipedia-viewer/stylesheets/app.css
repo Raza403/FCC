@@ -10327,12 +10327,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   }
 }
 
-/* line 3, ../sass/app.scss */
-.search-wrapper {
-  padding-top: 20px;
-}
-
-/* line 7, ../sass/app.scss */
+/* line 4, ../sass/app.scss */
 body {
   background-image: url("https://lh3.googleusercontent.com/ahY8XxsYRlzMF9HcMROUhljDzgqkfb-qD0eHbNfPnnxXxEzIXZ7XiFQupf8vfmai4gDtjQ6knE43nd0yMyd2b9HzKgIZ9zrJpWZn4x9_N2kO5FfCC3WVkqhN-y2T-x5Xld3SiJqdmLGw1oZnOzcgBk4M012ujiTI-qehD13l4Ci3d0sPvEpNH_fbiQDkqldEUn_s0Z00f3-q0QDnvsEODaaNm_Nc8DxKR05mrrPslCixzt4ZdyWirX_Y7U602Z2bsH4P0EDcN31OsuqQANhcUQTR_nSUtQMBvXY7G-Euv7rLeBeIARDXHhn0f9K-8UILrROxcSGyw29cxrXMb-PaWkeaOrQY077_53AS9exFPEW4R5XtPllxV89igZONlDGgUzWCAvnpvofQe-8Isbw8lthcga9o2Xo2elvvpYo_8Qj2xeyATzdJVQOvlE1Sq77FCyuLv1W8zjKWxM4cp3gSyJ_Ss6KjhTHMXqzc_4ntpp0tOJpQqrfaOeFqTpPVLh_rLHW2hvdTRZ470qSVy1N5Zs6edsrHSoyWF9UkfSsU0pF2YLPzxmjyNNk87EB8yDAzInn3cAYcgO0IXJqOF8iQCrGPwvwC89JKaJN-rp9gWKLj6qNGmxrTog=w332-h589-no");
   /* Background image is centered vertically and horizontally at all times */
@@ -10348,48 +10343,57 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 22, ../sass/app.scss */
+  /* line 19, ../sass/app.scss */
   body {
     /* The file size of this background image is 93% smaller
      to improve page load speed on mobile internet connections */
     background-image: url("https://lh3.googleusercontent.com/fXdOsEnHlOS9GDf9vGZ5Iuh6AALWN4dy4DoZnNqsvMq3Uwmkbavtd5xlK-bw-zqFxYeCPcRRDfOzZBErHt8sckrwwu5EGsr3hxz6zJ7KoknplnCJQ1jpGZfipa-l7GAnrLoX4nVm7itUSRdUM6XkI23D9qcmXKM4abYCJqtow_ygUhYD981IO204QNVTMqxSPBC0OI3A1ibUzoZeIG_5aaU0WH4tT1bHeQNa03ey4v55RaakT-MPPrXxJ6RBnjtftvxioIeWpdimz_UIR5WC9Lo8pi4KFADFFPB_rypSl0Q1QjrP-FWaCyiCPZhaSybNHF6QOoVeLWnO7T8dGhqkm_QiaF6NhHE5Ldzj3cagzXUWNGDDHeB0xF8s7azswzSt2ZJFLHbedRrdEa1RpEtUOsNR2qwWS7JnVAtOTCp1gUgi2j9WBtdQyMmE7vrM64jblUtRtCLod9UpITApj7pJaTZPIgiIfjgJJZlyhSEtK5FNVpTKurT5A8JYiVQf3RtId123cpACQlSHI54sMDBqXj7u9iEtc4o--CD55xcruqg5W2TA5q7ZzdWVtfX3PbRFwr3D2ZhXKaC9d0VW1BDZtXzJ9Mx8pJlLL29Tcr1aeRgk4yQI279muA=w332-h589-no");
   }
 }
-/* line 29, ../sass/app.scss */
+/* line 26, ../sass/app.scss */
 #searchBox,
-#searchButton,
 #random,
 .article {
   background-color: #fff;
   color: #0275d8;
 }
-/* line 35, ../sass/app.scss */
+/* line 31, ../sass/app.scss */
 #searchBox:hover,
-#searchButton:hover,
 #random:hover,
 .article:hover {
   background-color: #082567;
   color: #fff;
 }
 
-/* line 41, ../sass/app.scss */
+/* line 36, ../sass/app.scss */
+#searchButton {
+  background-color: #101AC8;
+  color: #fff;
+}
+/* line 39, ../sass/app.scss */
+#searchButton:hover {
+  background-color: #082567;
+  color: #fff;
+}
+
+/* line 45, ../sass/app.scss */
 a {
   text-decoration: none;
 }
-/* line 43, ../sass/app.scss */
+/* line 47, ../sass/app.scss */
 a:hover {
   text-decoration: none;
   color: #fff;
 }
 
-/* line 49, ../sass/app.scss */
+/* line 53, ../sass/app.scss */
 .article {
   margin: 14px;
   border: solid #082567 4px;
   padding: 5px;
   border-radius: 15px;
 }
-/* line 54, ../sass/app.scss */
+/* line 58, ../sass/app.scss */
 .article:hover {
   border: solid #fff 4px;
 }
