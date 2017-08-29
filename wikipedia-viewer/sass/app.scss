@@ -47,5 +47,11 @@ a {
 }
 
 .article {
-    margin: 10px;
+    margin: 14px;
+    border: solid $dark-blue 4px;
+    padding: 5px;
+    border-radius: 15px;
+    &:hover {
+        border: solid $white 4px;
+    }
 }
