@@ -13,23 +13,64 @@
 <body>
     <div class="container">
         <div class="row mt-4 pt-4 wrapper">
-            <div class="heading col-sm-8 col-md-10">
+            <div class="heading col-sm-8 col-md-9">
                 <h1 class="">Twitch Streamers</h1>
             </div>
             <div class="buttons pb-4 col-sm-1">
-                <button class="btn mt-2 list offset-sm-8 offset-md-10">All</button>
-                <button class="btn mt-2 list offset-sm-8 offset-md-10">Online</button>
-                <button class="btn mt-2 list offset-sm-8 offset-md-10">Offline</button>
+                <button class="btn mt-2 list offset-sm-8 offset-md-9" id="all">All</button>
+                <button class="btn mt-2 list offset-sm-8 offset-md-9" id="online">Online</button>
+                <button class="btn mt-2 list offset-sm-8 offset-md-9" id="offline">Offline</button>
             </div>
         </div>
+        <div id="data">
+            <div id="fcc" class="row mt-3 pt-3 pl-2 channels">
+                <img src="https://avatars2.githubusercontent.com/u/9892522?v=4&s=200" alt="FCC logo">
+                <a href="https://www.twitch.tv/freecodecamp" target="_blank"><p class="ml-2 font">FreeCodeCamp</p></a>
+            </div>
+            <div id="esl" class="row mt-3 pt-3 pl-2 channels">
+                <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/esl_sc2-profile_image-d6db9488cec97125-300x300.jpeg" alt="ESL_SC2 Logo">
+                <a href="https://www.twitch.tv/esl_sc2" target="_blank"><p class="ml-2 font">ESL_SC2</p></a>
+            </div>
+            <div id="ninja" class="row mt-3 pt-3 pl-2 channels">
+                <img src="https://static-cdn.jtvnw.net/jtv_user_pictures/noobs2ninjas-profile_image-34707f847a73d934-300x300.png" alt="Noob to Ninjas Logo">
+                <a href="https://www.twitch.tv/noobs2ninjas" target="_blank"><p class="ml-2 font">Noob to Ninjas</p></a>
+            </div>
 
-
+        </div>
+    </div>
 
 
 
         <script src="bower_components/jquery/dist/jquery.min.js"></script>
         <script src="bower_components/tether/dist/js/tether.min.js"></script>
         <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script>
+        $(document).ready(function(){
+        var address = ["https://wind-bow.glitch.me/twitch-api/streams/freecodecamp",
+        "https://wind-bow.glitch.me/twitch-api/streams/dreamhackcs","https://wind-bow.glitch.me/twitch-api/streams/dreamhackcsgo_ru"]
+        var ids = ["#fcc","#esl","#ninja"]
+        //Get data from api
+        $.ajaxSetup({
+            cache: false
+        });
+        for (var i=0;i<3;i++){
+            $.getJSON(address[i],function (data){
+            console.log(data);
+            console.log(data.stream.channel.game);
+            //if channel is offline do this
+            if (data.stream == null){
+                $(ids[i]).append("<p class='ml-5 font'>Offline<p>")
+                return;
+            }
+            //if channel is online append it's status (if it is a video) or it's game to the specific div.
+            else {
+                $(ids[i]).append("<p class='ml-5 status'>"+ data.stream.channel.game || data.stream.channel.status + "<p>");
+            }
+        });
+        
+        }
+        });
+        </script>
 
 </body>
 
