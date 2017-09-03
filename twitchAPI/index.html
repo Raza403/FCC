@@ -46,25 +46,24 @@
         <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
         <script>
         $(document).ready(function(){
-        var address = ["https://wind-bow.glitch.me/twitch-api/streams/freecodecamp",
-        "https://wind-bow.glitch.me/twitch-api/streams/dreamhackcs","https://wind-bow.glitch.me/twitch-api/streams/dreamhackcsgo_ru"]
-        var ids = ["#fcc","#esl","#ninja"]
+        
         //Get data from api
         $.ajaxSetup({
             cache: false
         });
-        for (var i=0;i<3;i++){
+        var address = ["https://wind-bow.glitch.me/twitch-api/streams/freecodecamp",
+        "https://wind-bow.glitch.me/twitch-api/streams/ESL_SC2","https://wind-bow.glitch.me/twitch-api/streams/noobs2ninjas"]
+        var ids = ["#fcc","#esl","#ninja"]
+
+        for (let i=0;i<3;i++){
             $.getJSON(address[i],function (data){
-            console.log(data);
-            console.log(data.stream.channel.game);
             //if channel is offline do this
             if (data.stream == null){
-                $(ids[i]).append("<p class='ml-5 font'>Offline<p>")
-                return;
+                $(ids[i]).append("<p class='ml-5 font'>Offline<p>");
             }
             //if channel is online append it's status (if it is a video) or it's game to the specific div.
             else {
-                $(ids[i]).append("<p class='ml-5 status'>"+ data.stream.channel.game || data.stream.channel.status + "<p>");
+                $(ids[i]).append("<p class='ml-5 status'>"+ data.stream.channel.status || data.stream.channel.game + "<p>");
             }
         });
         
